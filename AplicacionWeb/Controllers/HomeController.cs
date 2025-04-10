@@ -15,7 +15,10 @@ namespace AplicacionWeb.Controllers
         {
             _logger = logger;
         }
-
+        public IActionResult Formulario()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
