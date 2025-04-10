@@ -8,7 +8,6 @@ namespace AplicacionWeb.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         /// <summary>
-        /// prueba          
         /// prueba
         /// </summary>
         /// <param name="logger"></param>
@@ -16,10 +15,7 @@ namespace AplicacionWeb.Controllers
         {
             _logger = logger;
         }
-        public IActionResult Formulario()
-        {
-            return View();
-        }
+
         public IActionResult Index()
         {
             return View();
